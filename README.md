@@ -1,11 +1,11 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-004 : Random User App 2 (RC-04)
+# Project-003 : Random User App (RC-03)
 
 ## Description
 
-Project aims to create a Random User App 2.
+Project aims to create a Random User App.
 
 ## Problem Statement
 
@@ -14,7 +14,7 @@ Project aims to create a Random User App 2.
 ## Project Skeleton
 
 ```
-004 - Random User App 2 (folder)
+003 - Random User App (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
@@ -33,7 +33,7 @@ SOLUTION
 
 ## Expected Outcome
 
-![Project 004 Snapshot](random-user-app.gif)
+![Project 003 Snapshot](random-user-app.gif)
 
 ## Objective
 
@@ -57,13 +57,13 @@ Build a Random User App using ReactJS.
 
 ## Steps to Solution
 
-- Step 1: Create React App using `npx create-react-app random-user-app-two`.
+- Step 1: Create React App using `npx create-react-app random-user-app`.
 
 - Step 2: Build Random User App fetching data from `https://randomuser.me/api/` using `axios`.
 
-- Step 3: Push your application into your own public repo on Github.
+- Step 4: Push your application into your own public repo on Github.
 
-- Step 4: Add project gif to your project and README.md file.
+- Step 5: Add project gif to your project and README.md file.
 
 ## Notes
 
