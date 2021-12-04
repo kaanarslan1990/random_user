@@ -24,10 +24,31 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Random User App</title>
   </head>
-  <body>
+  <style>
+    #footer {
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        /* Height of the footer*/ 
+        height: 40px;
+        background: rgb(238, 9, 9);
+        color: white;
+        
+    }
+    a {
+      text-decoration: none;
+      color: yellow;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+</style>
+  <body style="background-color: aqua;">
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +60,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <br>
+    <div id="footer">This APP ıs created by <a href = "https://www.linkedin.com/in/arslan-oguzkaan/" target="_blank">Oguz Kaan ARSLAN</a> using REACT(axios,useState,useEffect).
+  </div>
+    
   </body>
+
+  
+  
 </html>
